@@ -11,13 +11,13 @@ import AppCenterAnalytics
 import AppCenterCrashes
 
 @main
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, CrashesDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Crashes.delegate = self
         AppCenter.start(withAppSecret: "f044e589-2a12-46ff-a214-f4b0a31ee720", services: [ Analytics.self, Crashes.self ])
-        
         
         return true
     }
@@ -35,7 +35,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
+    func crashes(_ crashes: Crashes, shouldProcess errorReport: ErrorReport) -> Bool {
+      return true; // return true if the crash report should be processed, otherwise false.
+    }
 
 }
 
