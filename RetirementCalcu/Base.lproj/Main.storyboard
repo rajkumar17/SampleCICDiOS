@@ -16,20 +16,50 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aih-gk-gOA">
-                                <rect key="frame" x="91" y="127" width="233" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aih-gk-gOA">
+                                <rect key="frame" x="91" y="203.5" width="233" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Calcu"/>
+                                <state key="normal" title="Submit"/>
                                 <connections>
                                     <action selector="didTapCalcu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Thl-vM-QMd"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s0h-F4-DEq">
+                                <rect key="frame" x="20" y="59" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="QHg-FO-KqI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Dept" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AM3-yx-FRl">
+                                <rect key="frame" x="20" y="121.5" width="374" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="GUD-55-3FE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="AM3-yx-FRl" firstAttribute="top" secondItem="s0h-F4-DEq" secondAttribute="bottom" constant="22.5" id="5QU-P0-F7l"/>
+                            <constraint firstItem="aih-gk-gOA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="91" id="Ams-z9-H8h"/>
+                            <constraint firstItem="s0h-F4-DEq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BdQ-TS-VEc"/>
+                            <constraint firstItem="aih-gk-gOA" firstAttribute="top" secondItem="AM3-yx-FRl" secondAttribute="bottom" constant="42" id="Kgd-Mb-AxS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AM3-yx-FRl" secondAttribute="trailing" constant="20" id="WMI-lH-0GK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s0h-F4-DEq" secondAttribute="trailing" constant="20" id="a14-di-eNi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aih-gk-gOA" secondAttribute="trailing" constant="90" id="dKg-A7-VpL"/>
+                            <constraint firstItem="s0h-F4-DEq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="wN6-Cc-exM"/>
+                            <constraint firstItem="AM3-yx-FRl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="zWQ-Xn-G51"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="deptxtfld" destination="AM3-yx-FRl" id="ti7-ik-zzm"/>
+                        <outlet property="nametxtfld" destination="s0h-F4-DEq" id="D7R-iU-TCD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
