@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }
     @IBAction func didTapCalcu(_ sender: Any) {
         //Crashes.generateTestCrash()
-        Analytics.trackEvent("calculate the button  clicked")
+        Analytics.trackEvent("calculate the button clicked", withProperties: ["test": "test"])
     }
     
 }
