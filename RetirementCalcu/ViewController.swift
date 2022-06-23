@@ -11,6 +11,9 @@ import AppCenterAnalytics
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var nametxtfld: UITextField!
+    @IBOutlet weak var deptxtfld: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -26,7 +29,9 @@ class ViewController: UIViewController {
     }
     @IBAction func didTapCalcu(_ sender: Any) {
         //Crashes.generateTestCrash()
-        Analytics.trackEvent("calculate the button  clicked",withProperties: ["test": "test in dev","amount":"100"])
+        guard let name = nametxtfld.text else { return }
+        guard let dept = deptxtfld.text else { return }
+        Analytics.trackEvent("calculate the button  clicked",withProperties: ["test": "test in dev","amount":"100","name":name,"dept":dept])
     }
     
 }
