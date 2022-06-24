@@ -1,0 +1,568 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "XCTest",
+      "printedName": "XCTest",
+      "declKind": "Import",
+      "moduleName": "RetirementCalcuUITests",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "RetirementCalcuUITestsLaunchTests",
+      "printedName": "RetirementCalcuUITestsLaunchTests",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "runsForEachTargetApplicationUIConfiguration",
+          "printedName": "runsForEachTargetApplicationUIConfiguration",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITestsLaunchTests(cpy)runsForEachTargetApplicationUIConfiguration",
+          "mangledName": "$s22RetirementCalcuUITests0abC11LaunchTestsC43runsForEachTargetApplicationUIConfigurationSbvpZ",
+          "moduleName": "RetirementCalcuUITests",
+          "static": true,
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "runsForEachTargetApplicationUIConfiguration",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITestsLaunchTests(cm)runsForEachTargetApplicationUIConfiguration",
+              "mangledName": "$s22RetirementCalcuUITests0abC11LaunchTestsC43runsForEachTargetApplicationUIConfigurationSbvgZ",
+              "moduleName": "RetirementCalcuUITests",
+              "static": true,
+              "overriding": true,
+              "isOpen": true,
+              "objc_name": "runsForEachTargetApplicationUIConfiguration",
+              "declAttributes": [
+                "Dynamic",
+                "ObjC"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "setUpWithError",
+          "printedName": "setUpWithError()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITestsLaunchTests(im)setUpWithError:",
+          "mangledName": "$s22RetirementCalcuUITests0abC11LaunchTestsC14setUpWithErroryyKF",
+          "moduleName": "RetirementCalcuUITests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "setUpWithError:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testLaunch",
+          "printedName": "testLaunch()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITestsLaunchTests(im)testLaunchAndReturnError:",
+          "mangledName": "$s22RetirementCalcuUITests0abC11LaunchTestsC04testD0yyKF",
+          "moduleName": "RetirementCalcuUITests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(invocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RetirementCalcuUITestsLaunchTests",
+              "printedName": "RetirementCalcuUITests.RetirementCalcuUITestsLaunchTests",
+              "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITestsLaunchTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSInvocation?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSInvocation",
+                  "printedName": "Foundation.NSInvocation",
+                  "usr": "c:objc(cs)NSInvocation"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITestsLaunchTests(im)initWithInvocation:",
+          "mangledName": "$s22RetirementCalcuUITests0abC11LaunchTestsC10invocationACSo12NSInvocationCSg_tcfc",
+          "moduleName": "RetirementCalcuUITests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithInvocation:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(selector:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RetirementCalcuUITestsLaunchTests",
+              "printedName": "RetirementCalcuUITests.RetirementCalcuUITestsLaunchTests",
+              "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITestsLaunchTests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Selector",
+              "printedName": "ObjectiveC.Selector",
+              "usr": "s:10ObjectiveC8SelectorV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITestsLaunchTests(im)initWithSelector:",
+          "mangledName": "$s22RetirementCalcuUITests0abC11LaunchTestsC8selectorAC10ObjectiveC8SelectorV_tcfc",
+          "moduleName": "RetirementCalcuUITests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithSelector:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RetirementCalcuUITestsLaunchTests",
+              "printedName": "RetirementCalcuUITests.RetirementCalcuUITestsLaunchTests",
+              "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITestsLaunchTests"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITestsLaunchTests(im)init",
+          "mangledName": "$s22RetirementCalcuUITests0abC11LaunchTestsCACycfc",
+          "moduleName": "RetirementCalcuUITests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITestsLaunchTests",
+      "mangledName": "$s22RetirementCalcuUITests0abC11LaunchTestsC",
+      "moduleName": "RetirementCalcuUITests",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)XCTestCase",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "XCTest.XCTestCase",
+        "XCTest.XCTest",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "XCTest",
+      "printedName": "XCTest",
+      "declKind": "Import",
+      "moduleName": "RetirementCalcuUITests",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "RetirementCalcuUITests",
+      "printedName": "RetirementCalcuUITests",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "setUpWithError",
+          "printedName": "setUpWithError()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITests(im)setUpWithError:",
+          "mangledName": "$s22RetirementCalcuUITestsAAC14setUpWithErroryyKF",
+          "moduleName": "RetirementCalcuUITests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "setUpWithError:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "tearDownWithError",
+          "printedName": "tearDownWithError()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITests(im)tearDownWithError:",
+          "mangledName": "$s22RetirementCalcuUITestsAAC17tearDownWithErroryyKF",
+          "moduleName": "RetirementCalcuUITests",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "tearDownWithError:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testExample",
+          "printedName": "testExample()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITests(im)testExampleAndReturnError:",
+          "mangledName": "$s22RetirementCalcuUITestsAAC11testExampleyyKF",
+          "moduleName": "RetirementCalcuUITests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "testLaunchPerformance",
+          "printedName": "testLaunchPerformance()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITests(im)testLaunchPerformanceAndReturnError:",
+          "mangledName": "$s22RetirementCalcuUITestsAAC21testLaunchPerformanceyyKF",
+          "moduleName": "RetirementCalcuUITests",
+          "isOpen": true,
+          "declAttributes": [
+            "ObjC"
+          ],
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(invocation:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RetirementCalcuUITests",
+              "printedName": "RetirementCalcuUITests.RetirementCalcuUITests",
+              "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSInvocation?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSInvocation",
+                  "printedName": "Foundation.NSInvocation",
+                  "usr": "c:objc(cs)NSInvocation"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITests(im)initWithInvocation:",
+          "mangledName": "$s22RetirementCalcuUITestsAAC10invocationABSo12NSInvocationCSg_tcfc",
+          "moduleName": "RetirementCalcuUITests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithInvocation:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(selector:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RetirementCalcuUITests",
+              "printedName": "RetirementCalcuUITests.RetirementCalcuUITests",
+              "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITests"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Selector",
+              "printedName": "ObjectiveC.Selector",
+              "usr": "s:10ObjectiveC8SelectorV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITests(im)initWithSelector:",
+          "mangledName": "$s22RetirementCalcuUITestsAAC8selectorAB10ObjectiveC8SelectorV_tcfc",
+          "moduleName": "RetirementCalcuUITests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithSelector:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "RetirementCalcuUITests",
+              "printedName": "RetirementCalcuUITests.RetirementCalcuUITests",
+              "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITests"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITests(im)init",
+          "mangledName": "$s22RetirementCalcuUITestsAACABycfc",
+          "moduleName": "RetirementCalcuUITests",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@RetirementCalcuUITests@objc(cs)RetirementCalcuUITests",
+      "mangledName": "$s22RetirementCalcuUITestsAAC",
+      "moduleName": "RetirementCalcuUITests",
+      "isOpen": true,
+      "declAttributes": [
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)XCTestCase",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "XCTest.XCTestCase",
+        "XCTest.XCTest",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "5990e0ed50fa2c6d1ed8402243e48cd7ec01433a051726140bb7755c29d6ddf6"
+build_start_time: [1656045545, 221959114]
+build_end_time: [1656045547, 837044954]
+inputs:
+  ? "/Users/apple/Rajkumar/Project/Mobile/iOS/1Train/Self Learn/Master_ci_cd/RetirementCalcu/RetirementCalcuTests/RetirementCalcuTests.swift"
+  : [1655897503, 262920379]

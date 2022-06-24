@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "45346eda07d05ac7ae1d792419dbde805736206e9443e360c5e89efd558d6fc5"
+build_start_time: [1656047511, 649266004]
+build_end_time: [1656047511, 856728076]
+inputs:
+  ? "/Users/apple/Rajkumar/Project/Mobile/iOS/1Train/Self Learn/Master_ci_cd/RetirementCalcu/RetirementCalcuUITests/RetirementCalcuUITests.swift"
+  : [1656047471, 857971191]
+  ? "/Users/apple/Rajkumar/Project/Mobile/iOS/1Train/Self Learn/Master_ci_cd/RetirementCalcu/RetirementCalcuUITests/RetirementCalcuUITestsLaunchTests.swift"
+  : [1655897503, 284310817]

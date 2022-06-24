@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>47DAC999-D9F7-4702-BB8A-C04D14523BF2</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>47DAC999-D9F7-4702-BB8A-C04D14523BF2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RetirementCalcu project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RetirementCalcu</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace RetirementCalcu for testing with scheme RetirementCalcu</string>
+			<key>timeStartedRecording</key>
+			<real>677738321.94490194</real>
+			<key>timeStoppedRecording</key>
+			<real>677738348.84513199</real>
+			<key>title</key>
+			<string>Building workspace RetirementCalcu for testing with scheme RetirementCalcu</string>
+			<key>uniqueIdentifier</key>
+			<string>47DAC999-D9F7-4702-BB8A-C04D14523BF2</string>
+		</dict>
+		<key>63AA8535-29D3-4949-A302-001BC4172EDC</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>63AA8535-29D3-4949-A302-001BC4172EDC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>RetirementCalcu project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>RetirementCalcu</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace RetirementCalcu for testing with scheme RetirementCalcu</string>
+			<key>timeStartedRecording</key>
+			<real>677740306.61865902</real>
+			<key>timeStoppedRecording</key>
+			<real>677740312.93699801</real>
+			<key>title</key>
+			<string>Building workspace RetirementCalcu for testing with scheme RetirementCalcu</string>
+			<key>uniqueIdentifier</key>
+			<string>63AA8535-29D3-4949-A302-001BC4172EDC</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
