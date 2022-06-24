@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "2fd6b557b56fa177294ba62b61c2dffe1bfe3d0de996c9cb6b1b45d4ba4e06d9"
+build_start_time: [1656047509, 115365028]
+build_end_time: [1656047509, 854732036]
+inputs:
+  "/Users/apple/Rajkumar/Project/Mobile/iOS/1Train/Self Learn/Master_ci_cd/RetirementCalcu/RetirementCalcu/AppDelegate.swift": [1656005032, 918073654]
+  "/Users/apple/Rajkumar/Project/Mobile/iOS/1Train/Self Learn/Master_ci_cd/RetirementCalcu/RetirementCalcu/SceneDelegate.swift": [1655897502, 420651912]
+  "/Users/apple/Rajkumar/Project/Mobile/iOS/1Train/Self Learn/Master_ci_cd/RetirementCalcu/RetirementCalcu/ViewController.swift": [1656046068, 197483062]

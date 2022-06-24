@@ -9,13 +9,16 @@ import UIKit
 import AppCenterCrashes
 import AppCenterAnalytics
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var nametxtfld: UITextField!
     @IBOutlet weak var deptxtfld: UITextField!
+    @IBOutlet weak var resultLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        nametxtfld.delegate = self
+        deptxtfld.delegate = self
         // Do any additional setup after loading the view.
     }
     override func viewDidAppear(_ animated: Bool) {
@@ -29,10 +32,18 @@ class ViewController: UIViewController {
     }
     @IBAction func didTapCalcu(_ sender: Any) {
         //Crashes.generateTestCrash()
+        nametxtfld.resignFirstResponder()
+        deptxtfld.resignFirstResponder()
+        
         guard let name = nametxtfld.text else { return }
         guard let dept = deptxtfld.text else { return }
+        resultLabel.text = "the name is \(name) \(dept)"
+        
         Analytics.trackEvent("calculate the button  clicked",withProperties: ["test": "test in dev","amount":"100","name":name,"dept":dept])
     }
-    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return false
+    }
 }
 

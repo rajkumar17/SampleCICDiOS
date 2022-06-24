@@ -24,10 +24,39 @@ class RetirementCalcuUITests: XCTestCase {
 
     func testExample() throws {
         // UI tests must launch the application that they test.
-        let app = XCUIApplication()
-        app.launch()
-
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTContext.runActivity(named: "screenshot") { (activity) in
+            let app = XCUIApplication()
+            app.activate()
+            app.textFields["Name"].tap()
+            
+            let rKey = app/*@START_MENU_TOKEN@*/.keys["r"]/*[[".keyboards.keys[\"r\"]",".keys[\"r\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
+            rKey.tap()
+            
+            let aKey = app/*@START_MENU_TOKEN@*/.keys["a"]/*[[".keyboards.keys[\"a\"]",".keys[\"a\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
+            aKey.tap()
+            
+            let hKey = app.keys["j"]
+            hKey.tap()
+            
+            let deptTextField = app.textFields["Dept"]
+            deptTextField.tap()
+            
+            let cKey = app/*@START_MENU_TOKEN@*/.keys["c"]/*[[".keyboards.keys[\"c\"]",".keys[\"c\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
+            cKey.tap()
+            
+            let sKey = app/*@START_MENU_TOKEN@*/.keys["s"]/*[[".keyboards.keys[\"s\"]",".keys[\"s\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
+            sKey.tap()
+            
+            let eKey = app/*@START_MENU_TOKEN@*/.keys["e"]/*[[".keyboards.keys[\"e\"]",".keys[\"e\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/
+            eKey.tap()
+            app/*@START_MENU_TOKEN@*/.staticTexts["Submit"]/*[[".buttons[\"Submit\"].staticTexts[\"Submit\"]",".staticTexts[\"Submit\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+            
+            //let resultTest = app.staticTexts["the name is raj cse"]
+            let resultTest = app.staticTexts.element(matching: .any, identifier: "resultLabel")
+            let result = "the name is raj cse"
+            XCTAssertEqual(resultTest.label, result)
+        }
     }
 
     func testLaunchPerformance() throws {

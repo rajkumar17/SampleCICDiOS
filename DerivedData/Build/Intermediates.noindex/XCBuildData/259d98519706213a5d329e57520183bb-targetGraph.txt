@@ -1,0 +1,16 @@
+Target dependency graph (7 targets)
+AppCenter in Pods, no dependencies
+Pods-RetirementCalcu in Pods, depends on:
+AppCenter in Pods (explicit)
+RetirementCalcu in RetirementCalcu, depends on:
+Pods-RetirementCalcu in Pods (implicit dependency via file 'Pods_RetirementCalcu.framework' in build phase 'Link Binary')
+Pods-RetirementCalcuTests in Pods, depends on:
+Pods-RetirementCalcu in Pods (explicit)
+RetirementCalcuTests in RetirementCalcu, depends on:
+RetirementCalcu in RetirementCalcu (explicit)
+Pods-RetirementCalcuTests in Pods (implicit dependency via file 'Pods_RetirementCalcuTests.framework' in build phase 'Link Binary')
+Pods-RetirementCalcu-RetirementCalcuUITests in Pods, depends on:
+AppCenter in Pods (explicit)
+RetirementCalcuUITests in RetirementCalcu, depends on:
+RetirementCalcu in RetirementCalcu (explicit)
+Pods-RetirementCalcu-RetirementCalcuUITests in Pods (implicit dependency via file 'Pods_RetirementCalcu_RetirementCalcuUITests.framework' in build phase 'Link Binary')
