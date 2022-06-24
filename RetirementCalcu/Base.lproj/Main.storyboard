@@ -25,22 +25,32 @@
                                     <action selector="didTapCalcu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Thl-vM-QMd"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s0h-F4-DEq">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Name" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="s0h-F4-DEq">
                                 <rect key="frame" x="20" y="59" width="374" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="QHg-FO-KqI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" enablesReturnKeyAutomatically="YES"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Dept" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AM3-yx-FRl">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Dept" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="AM3-yx-FRl">
                                 <rect key="frame" x="20" y="121.5" width="374" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="GUD-55-3FE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="the name is raj cse" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ClI-Er-YJx">
+                                <rect key="frame" x="20" y="297.5" width="374" height="150"/>
+                                <accessibility key="accessibilityConfiguration" identifier="resultLabel"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="b9l-c6-0w0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -50,8 +60,11 @@
                             <constraint firstItem="s0h-F4-DEq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BdQ-TS-VEc"/>
                             <constraint firstItem="aih-gk-gOA" firstAttribute="top" secondItem="AM3-yx-FRl" secondAttribute="bottom" constant="42" id="Kgd-Mb-AxS"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AM3-yx-FRl" secondAttribute="trailing" constant="20" id="WMI-lH-0GK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ClI-Er-YJx" secondAttribute="trailing" constant="20" id="YvM-I7-GR6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="s0h-F4-DEq" secondAttribute="trailing" constant="20" id="a14-di-eNi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aih-gk-gOA" secondAttribute="trailing" constant="90" id="dKg-A7-VpL"/>
+                            <constraint firstItem="ClI-Er-YJx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="iwR-5v-e2v"/>
+                            <constraint firstItem="ClI-Er-YJx" firstAttribute="top" secondItem="aih-gk-gOA" secondAttribute="bottom" constant="52" id="rIi-ZE-sqc"/>
                             <constraint firstItem="s0h-F4-DEq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="wN6-Cc-exM"/>
                             <constraint firstItem="AM3-yx-FRl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="zWQ-Xn-G51"/>
                         </constraints>
@@ -59,6 +72,7 @@
                     <connections>
                         <outlet property="deptxtfld" destination="AM3-yx-FRl" id="ti7-ik-zzm"/>
                         <outlet property="nametxtfld" destination="s0h-F4-DEq" id="D7R-iU-TCD"/>
+                        <outlet property="resultLabel" destination="ClI-Er-YJx" id="yfi-H8-VFW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

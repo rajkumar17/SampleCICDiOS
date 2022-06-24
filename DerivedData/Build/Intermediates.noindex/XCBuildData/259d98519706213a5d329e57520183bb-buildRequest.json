@@ -1,0 +1,77 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "c491e3ff0751446d7fa1d679e930ca9cf2fe55be128531dc1326b8bd160c2b1a"
+    },
+    {
+      "guid" : "c491e3ff0751446d7fa1d679e930ca9c78398f4ecbff291db5668644375324fb"
+    },
+    {
+      "guid" : "c491e3ff0751446d7fa1d679e930ca9ccf511c7aa9a3139f95558236b827f79b"
+    }
+  ],
+  "containerPath" : "/Users/apple/Rajkumar/Project/Mobile/iOS/1Train/Self Learn/Master_ci_cd/RetirementCalcu/RetirementCalcu.xcworkspace",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos15.5",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/apple/Rajkumar/Project/Mobile/iOS/1Train/Self Learn/Master_ci_cd/RetirementCalcu/DerivedData/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/apple/Rajkumar/Project/Mobile/iOS/1Train/Self Learn/Master_ci_cd/RetirementCalcu/DerivedData/Build/Products",
+      "derivedDataPath" : "/Users/apple/Rajkumar/Project/Mobile/iOS/1Train/Self Learn/Master_ci_cd/RetirementCalcu/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/apple/Rajkumar/Project/Mobile/iOS/1Train/Self Learn/Master_ci_cd/RetirementCalcu/DerivedData/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/apple/Rajkumar/Project/Mobile/iOS/1Train/Self Learn/Master_ci_cd/RetirementCalcu/DerivedData/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/apple/Rajkumar/Project/Mobile/iOS/1Train/Self Learn/Master_ci_cd/RetirementCalcu/DerivedData/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "SDKROOT" : "iphoneos15.5"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "119",
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "test",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
